@@ -109,5 +109,6 @@
   <component name="RailwaysModuleConfiguration">
     <option name="environment" value="development" />
     <option name="autoUpdate" value="true" />
+    <option name="liveActionHighlighting" value="false" />
   </component>
 </module>
