@@ -9,5 +9,12 @@
 
   <p>
     <%= question.body %>
+    <br>
+    <%= button_to 'Show', question_path(question) %>
+    <br>
+    <%= button_to 'Edit', edit_question_path(question) %>
+    <br>
+    <%= button_to 'Destroy', question_path(question), method: :delete,
+                data: { confirm: "Are you sure?" } %>
   </p>
 <% end %>
